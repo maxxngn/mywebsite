@@ -100,7 +100,7 @@ input:focus {
 }
 table {
     margin: 0 auto;
-    width: 780px;
+    width: 780px;}
     table#rates {width: 380px;}
     th, td {
         border-radius: 3px;
@@ -124,13 +124,13 @@ table {
         background-color: #00cccc;
         color: #fff;
     }
-    th.ascending::after {
+    th.ascending:after {
         font-size: 60%;
         content: '\25B2';
         float: left;
         padding: 4px 5px 0 0;
     }
-    th.discending::after {
+    th.discending:after {
         font-size: 60%;
         content: '\25BC';
         float: left;
